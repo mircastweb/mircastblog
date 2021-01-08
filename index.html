@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>MIRCASTBLOG</title>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="Demo project">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
+<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+</head>
+<body>
+
+<div class="super_container">
+
+	<!-- Header -->
+
+	<header class="header">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<div class="header_content d-flex flex-row align-items-center justify-content-start">
+						<div class="logo"><a href="index.html">MIRCASTBLOG</a></div>
+						<nav class="main_nav">
+							<ul>
+								<li class="active"><a href="index.html">Home</a></li>
+								<li><a href="#programacion">Programación</a></li>
+								<li><a href="#emprendimiento">Emprendimiento</a></li>
+								<li><a href="#otros">Otros</a></li>
+								<li><a href="../index.html">IR A LA WEB.</a></li>
+							</ul>
+						</nav>
+						<div class="search_container ml-auto">
+							<div class="weather">
+								<div class="temperature">+10°</div>
+								<img class="weather_icon" src="images/cloud.png" alt="">
+							</div>
+							<form action="#">
+								<input type="search" class="header_search_input" required="required" placeholder="Busca aquí...">
+								<img class="header_search_icon" src="images/search.png" alt="">
+							</form>
+							
+						</div>
+						<div class="hamburger ml-auto menu_mm">
+							<i class="fa fa-bars trans_200 menu_mm" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Menu -->
+
+	<div class="menu d-flex flex-column align-items-end justify-content-start text-right menu_mm trans_400">
+		<div class="menu_close_container"><div class="menu_close"><div></div><div></div></div></div>
+		<div class="logo menu_mm"><a href="index.html">MIRCASTBLOG</a></div>
+		<div class="search">
+			<form action="#">
+				<input type="search" class="header_search_input menu_mm" required="required" placeholder="Type to Search...">
+				<img class="header_search_icon menu_mm" src="images/search_2.png" alt="">
+			</form>
+		</div>
+		<nav class="menu_nav">
+			<ul class="menu_mm">
+				<li class="menu_mm"><a href="index.html">Home</a></li>
+				<li class="menu_mm"><a href="programacion.html">Programación</a></li>
+				<li class="menu_mm"><a href="#">Emprendimiento</a></li>
+				<li class="menu_mm"><a href="#">Otros</a></li>
+				<li class="menu_mm"><a href="../index.html">IR A LA WEB</a></li>
+			</ul>
+		</nav>
+	</div>
+	
+	<!-- Home -->
+
+	<div class="home">
+		
+		<!-- Home Slider -->
+
+		<div class="home_slider_container">
+			<div class="owl-carousel owl-theme home_slider">
+				
+				<!-- Slider Item -->
+				<div class="owl-item">
+					<div class="home_slider_background" style="background-image:url(images/home_slider.jpg)"></div>
+					<div class="home_slider_content_container">
+						<div class="container">
+							<div class="row">
+								<div class="col">
+									<div class="home_slider_content">
+										<div class="home_slider_item_category trans_200"><a href="category.html" class="trans_200">EMPRENDE</a></div>
+										<div class="home_slider_item_title">
+											<a href="index.html">Ante una gran crisis, <br>aqui te traigo la solución.</a>
+										</div>
+										<div class="home_slider_item_link">
+											<a href="index.html" class="trans_200">Continuar leyendo
+												<svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													 width="19px" height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13" xml:space="preserve">
+													<polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 "/>
+												</svg>
+											</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Similar Posts -->
+					<div class="similar_posts_container">
+						<div class="container">
+							<div class="row d-flex flex-row align-items-end">
+
+								<!-- Similar Post -->
+								<div class="col-lg-3 col-md-6 similar_post_col">
+									<div class="similar_post trans_200">
+										<a href="index.html">Freelance, Emprendedor y Empresario. ¿Estamos hablando de lo mismo?</a>
+									</div>
+								</div>
+
+								<!-- Similar Post -->
+								<div class="col-lg-3 col-md-6 similar_post_col">
+									<div class="similar_post trans_200">
+										<a href="index.html">10 Herramientas imprescindibles  para un programador</a>
+									</div>
+								</div>
+
+								<!-- Similar Post -->
+								<div class="col-lg-3 col-md-6 similar_post_col">
+									<div class="similar_post trans_200">
+										<a href="index.html">¡¡El redmi K30 ya se asoma, y promete lo suyo!!</a>
+									</div>
+								</div>
+
+							</div>
+						</div>
+						
+				
+
+					</div>
+				</div>
+						
+
+			</div>
+
+				</div>
+		        <ul id="custom_dots" class="custom_dots custom_dots_home_slider">
+					<li class="custom_dot custom_dot_home_slider active"><span></span></li>
+					<li class="custom_dot custom_dot_home_slider"><span></span></li>
+					<li class="custom_dot custom_dot_home_slider"><span></span></li>
+				</ul>
+				<div class="custom_next custom_next_home_slider">
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+						 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
+						<polyline fill="#FFFFFF" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 "/>
+					</svg>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	
+	<!-- Page Content -->
+	<div id="programacion"></div>
+	<br>
+	<div class="page_content" >
+		<div class="container">
+			<div class="row row-lg-eq-height">
+
+				<!-- Main Content -->
+
+				<div class="col-lg-9">
+					<div class="main_content">
+
+						<!-- Programación-->
+
+						<div class="blog_section" >
+							<div class="section_panel d-flex flex-row align-items-center justify-content-start">
+								<div class="section_title">Programación</div>
+								<div class="section_tags ml-auto">
+									<ul>
+										<li class="active"><a href="index.html">Todo</a></li>
+										<li><a href="index.html">Lenguajes Programación</a></li>
+										<li><a href="index.html">UX</a></li>
+										<li><a href="index.html">Herramientas</a></li>
+										<li><a href="index.html">Libros</a></li>
+									</ul>
+								</div>
+								<div class="section_panel_more">
+									<ul>
+										<li>more
+											<ul>
+												<li><a href="index.html">Java Script</a></li>
+												<li><a href="index.html">Frameworks</a></li>
+												<li><a href="index.html">HTML</a></li>
+												<li><a href="index.html">CSS</a></li>
+												<li><a href="index.html">Trabajo</a></li>
+												<li><a href="index.html">Otros</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="section_content">
+								<div class="grid clearfix">
+
+									<!-- Largest Card With Image -->
+									<div class="card card_largest_with_image grid-item">
+										<img class="card-img-top" src="images/post_1.jpg" alt="https://unsplash.com/@cjtagupa">
+										<div class="card-body">
+											<div class="card-title"><a href="index.html">Prioridades para crear una web</a></div>
+											<p class="card-text">Me solía pasar que nunca sabia por donde empezar. Sucede mas de lo que imaginas porque no se trata de saper o no saber no es solo ingeniería y ciencia también esta el arte de crear.</p>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Enero 01, 2020 a las 20:20 am</span></small>
+										</div>
+									</div>
+
+									<!-- Small Card Without Image -->
+									<div class="card card_default card_small_no_image grid-item">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="index.html"">10 Herramientas imprescindibles  para un programador</a></div>
+											<small class="post_meta"><a href="index.html">Mircastweb</a><span>Enero 01, 2020 a las 20:20</span></small>
+										</div>
+									</div>
+
+									<!-- Small Card With Background -->
+									<div class="card card_default card_small_with_background grid-item">
+										<div class="card_background" style="background-image:url(images/post_4.jpg)"></div>
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="index.html">Los lenguajes de programación con los que encontrar trabajo</a></div>
+											<small class="post_meta"><a href="index.html">Mircastweb</a><span>Enero 30, 2020 a las 09:00</span></small>
+										</div>
+									</div>
+
+									<!-- Small Card With Image -->
+									<div class="card card_small_with_image grid-item">
+										<img class="card-img-top" src="images/post_2.jpg" alt="https://unsplash.com/@jakobowens1">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="index.html">Programas que todo desarrollador web debe tener instalados en su pc</a></div>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Enero 20, 2020 a las 09:00</span></small>
+										</div>
+									</div>
+
+									<!-- Small Card With Image -->
+									<div class="card card_small_with_image grid-item">
+										<img class="card-img-top" src="images/post_3.jpg" alt="https://unsplash.com/@jannerboy62">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="index.html">Los acrónimos mas importantes para un desarrollador web</a></div>
+											<small class="post_meta"><a href="index.html">Mircastweb</a><span>Enero 16, 2020 a las 09:00</span></small>
+										</div>
+									</div>
+
+									<!-- Default Card No Image -->
+
+									<div class="card card_default card_default_no_image grid-item">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="index.html">Libros que todo programador debería leer</a></div>
+										</div>
+									</div>
+
+									<!-- Default Card No Image -->
+
+									<div class="card card_default card_default_no_image grid-item">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="index.html">Las web de interés para programadores</a></div>
+										</div>
+									</div>
+
+									<!-- Default Card No Image -->
+
+									<div class="card card_default card_default_no_image grid-item">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="index.html">Las mejores herramientas de seguridad y hacking</a></div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<br> <br>
+							<div id="load_more" class="load_more_button text-center trans_200"><a href="index.html">Ver todos.</a></div>
+						</div>
+
+						<div id="emprendimiento" ></div>
+						<br>
+						<!-- Emprendimiento-->
+
+						<div class="blog_section">
+							<div class="section_panel d-flex flex-row align-items-center justify-content-start">
+								<div class="section_title">Emprendimiento</div>
+								<div class="section_tags ml-auto">
+									<ul>
+										<li class="active"><a href="category.html">Todo</a></li>
+										<li><a href="category.html">Motivación</a></li>
+										<li><a href="category.html">Lifestyle</a></li>
+										<li><a href="category.html">Estrategia</a></li>
+										<li><a href="category.html">Productividad</a></li>
+									</ul>
+								</div>
+								<div class="section_panel_more">
+									<ul>
+										<li>more
+											<ul>
+												<li><a href="category.html"></a></li>
+												<li><a href="category.html">Freelance</a></li>
+												<li><a href="category.html">Emprendedor</a></li>
+												<li><a href="category.html">Marca Personal</a></li>
+												<li><a href="category.html">Mentores</a></li>
+												<li><a href="category.html">Otros</a></li>
+											</ul>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="section_content">
+								<div class="grid clearfix">
+									
+									<!-- Large Card With Background -->
+									<div class="card card_large_with_background grid-item">
+										<div class="card_background" style="background-image:url(images/post_8.jpg)"></div>
+										<div class="card-body">
+											<div class="card-title"><a href="post.html">El secreto que hará que tus propósitos de año nuevo se cumplan</a></div>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Enero 01, 2020 a las 20:20</span></small>
+										</div>
+									</div>
+									
+									<!-- Large Card With Image -->
+									<div class="card grid-item card_large_with_image">
+										<img class="card-img-top" src="images/post_9.jpg" alt="">
+										<div class="card-body">
+											<div class="card-title"><a href="post.html">Lo que el deporte puede enseñarte para emprender</a></div>
+											<p class="card-text">En el deporte se puede llegar a aprender mucho sobre como ser y actuar como emprendedor. El equilibrio es uno de los conocimientos de valor que nos puede aportar entre otros muchos. </p>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Enero 09, 2020 a las 09:00</span></small>
+										</div>
+									</div>
+
+									<!-- Default Card With Image -->
+									<div class="card card_small_with_image grid-item">
+										<img class="card-img-top" src="images/post_5.jpg" alt="">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">Freelance, Emprendedor y Empresario. ¿Estamos hablando de lo mismo?</a></div>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Enero 01, 2020 a las 20:20</span></small>
+										</div>
+									</div>
+									
+									<!-- Default Card With Background -->
+
+									<div class="card card_default card_default_with_background grid-item">
+										<div class="card_background" style="background-image:url(images/post_6.jpg)"></div>
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">Crea una vida  de la que no necesites vacaciones</a></div>
+										</div>
+									</div>
+
+									<!-- Default Card No Image -->
+									<div class="card card_default card_default_no_image grid-item">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">Como gestionar tu agenda y ser mas productivo</a></div>
+										</div>
+									</div>
+
+									<!-- Default Card No Image -->
+									<div class="card card_default card_default_no_image grid-item">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">10 métodos para multiplicar tus resultados</a></div>
+										</div>
+									</div>
+
+									<!-- Default Card With Background -->
+
+									<div class="card card_default card_default_with_background grid-item">
+										<div class="card_background" style="background-image:url(images/post_7.jpg)"></div>
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">¿Que marca eres? La importancia de tu marca personal</a></div>
+										</div>
+									</div>
+
+								</div>
+								
+							</div>
+							<br> <br>
+							<div id="load_more" class="load_more_button text-center trans_200"> <a href="emprendimiento.html">Ver todos.</a></div>
+						</div>
+
+						<!-- Blog Section - Latest -->
+						<div id="otros"></div>
+						<br>
+						<div class="blog_section">
+							<div class="section_panel d-flex flex-row align-items-center justify-content-start">
+								<div class="section_title">Otros</div>
+							</div>
+							<div class="section_content">
+								<div class="grid clearfix">
+									
+									<!-- Small Card With Image -->
+									<div class="card card_small_with_image grid-item">
+										<img class="card-img-top" src="images/post_10.jpg" alt="">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">¿Qué pasara con Huawei en el 2020?</a></div>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Enero 10, 2020 a las 09:00</span></small>
+										</div>
+									</div>
+
+									<!-- Small Card Without Image -->
+									<div class="card card_default card_small_no_image grid-item">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">El redmi K30 ya se asoma, y promete lo suyo!!</a></div>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Enero 01, 2020 a las 20:20</span></small>
+										</div>
+									</div>
+
+									<!-- Small Card With Image -->
+									<div class="card card_small_with_image grid-item">
+										<img class="card-img-top" src="images/post_15.jpg" alt="">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">Lenovo aspira a quitarle el estatus a HP</a></div>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Enero 24, 2020 a las 09:00</span></small>
+										</div>
+									</div>
+
+									<!-- Small Card With Image -->
+									<div class="card card_small_with_image grid-item">
+										<img class="card-img-top" src="images/post_13.jpg" alt="https://unsplash.com/@jakobowens1">
+										<div class="card-body">
+											<div class="card-title card-title-small"><a href="post.html">El impactante diseño del Tesla Cybertruk que nadie podía predecir</a></div>
+											<small class="post_meta"><a href="#">Mircastweb</a><span>Febrero 07, 2020 a las 09:00</span></small>
+										</div>
+									</div>
+
+								</div>
+								
+							</div>
+						</div>
+
+					</div>
+					<br> <br>
+							<div id="load_more" class="load_more_button text-center trans_200"><a href="otros.html">Ver todos.</a></div>
+					<br><br><br>
+				</div>
+
+				<!-- Sidebar -->
+
+				<div class="col-lg-3">
+					<div class="sidebar">
+						<div class="sidebar_background"></div>
+
+						<!-- Top Stories -->
+
+						<div class="sidebar_section">
+							<div class="sidebar_title_container">
+								<div class="sidebar_title">Más visitados</div>
+								<div class="sidebar_slider_nav">
+									<div class="custom_nav_container sidebar_slider_nav_container">
+										<div class="custom_prev custom_prev_top">
+											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
+												<polyline fill="#bebebe" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 "/>
+											</svg>
+										</div>
+								        <ul id="custom_dots" class="custom_dots custom_dots_top">
+											<li class="custom_dot custom_dot_top active"><span></span></li>
+											<li class="custom_dot custom_dot_top"><span></span></li>
+											<li class="custom_dot custom_dot_top"><span></span></li>
+										</ul>
+										<div class="custom_next custom_next_top">
+											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
+												<polyline fill="#bebebe" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 "/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar_section_content">
+
+								<!-- Top Stories Slider -->
+								<div class="sidebar_slider_container">
+									<div class="owl-carousel owl-theme sidebar_slider_top">
+
+										<!-- Top Stories Slider Item -->
+										<div class="owl-item">
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_1.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">Libros que todo programador debería leer</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_2.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">Prioridades para crear una web</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_3.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">El secreto que hará que tus propósitos de año nuevo se cumplan</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_4.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">¿Que marca eres? La importancia de tu marca personal</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+										</div>
+
+										<!-- Top Stories Slider Item -->
+										<div class="owl-item">
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_5.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">Freelance, Emprendedor y Empresario. ¿Estamos hablando de lo mismo? </div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_6.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">¿Qué pasara con Huawei en el 2020?</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_7.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">Lenovo aspira a quitarle el estatus a HP</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_8.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">Lo que el deporte puede enseñarte para emprender</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+										</div>
+
+										<!-- Top Stories Slider Item -->
+										<div class="owl-item">
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_9.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">10 Herramientas imprescindibles para un programador</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_10.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">Las web de interés para programadores</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_11.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">Crea una vida de la que no necesites vacaciones</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Sidebar Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="side_post_image"><div><img src="images/top_12.jpg" alt=""></div></div>
+														<div class="side_post_content">
+															<div class="side_post_title">El redmi K30 ya se asoma, y promete lo suyo!!</div>
+															<small class="post_meta">Mircastweb<span>Ene 01</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Advertising -->
+
+						<div class="sidebar_section">
+							<div class="advertising">
+								<div class="advertising_background" style="background-image:url(images/post_17.jpg)"></div>
+								<div class="advertising_content d-flex flex-column align-items-start justify-content-end">
+									<div class="advertising_link"><a href="#">CREA TU NEGOCIO ONLINE RENTABLE Y DEL QUE NO NECESITES VACACIONES</a></div>
+								</div>
+							</div>
+						</div>
+
+						
+
+						<!-- Advertising 2 -->
+
+						<div class="sidebar_section">
+							<div class="advertising_2">
+								<div class="advertising_background" style="background-image:url(images/post_18.jpg)"></div>
+								<div class="advertising_2_content d-flex flex-column align-items-center justify-content-center">
+									<div class="advertising_2_link"><a href="#">Éxito como freelance</a></div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Future Events -->
+
+						<div class="sidebar_section future_events">
+							<div class="sidebar_title_container">
+								<div class="sidebar_title">Próximos Posts</div>
+								<div class="sidebar_slider_nav">
+									<div class="custom_nav_container sidebar_slider_nav_container">
+										<div class="custom_prev custom_prev_events">
+											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
+												<polyline fill="#bebebe" points="0,5.61 5.609,0 7,0 7,1.438 2.438,6 7,10.563 7,12 5.609,12 -0.002,6.39 "/>
+											</svg>
+										</div>
+								        <ul id="custom_dots" class="custom_dots custom_dots_events">
+											<li class="custom_dot custom_dot_events active"><span></span></li>
+											<li class="custom_dot custom_dot_events"><span></span></li>
+											<li class="custom_dot custom_dot_events"><span></span></li>
+										</ul>
+										<div class="custom_next custom_next_events">
+											<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+												 width="7px" height="12px" viewBox="0 0 7 12" enable-background="new 0 0 7 12" xml:space="preserve">
+												<polyline fill="#bebebe" points="6.998,6.39 1.389,12 -0.002,12 -0.002,10.562 4.561,6 -0.002,1.438 -0.002,0 1.389,0 7,5.61 "/>
+											</svg>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="sidebar_section_content">
+
+								<!-- Sidebar Slider -->
+								<div class="sidebar_slider_container">
+									<div class="owl-carousel owl-theme sidebar_slider_events">
+
+										<!-- Future Events Slider Item -->
+										<div class="owl-item">
+
+											<!-- Future Events Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="event_date d-flex flex-column align-items-center justify-content-center">
+															<div class="event_day">06</div>
+															<div class="event_month">enero</div>
+														</div>
+														<div class="side_post_content">
+															<div class="side_post_title">Libros que todo programador debería leer</div>
+															<small class="post_meta">MIRCASTWEEB<span>Enero 06</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Future Events Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="event_date d-flex flex-column align-items-center justify-content-center">
+															<div class="event_day">09</div>
+															<div class="event_month">enero</div>
+														</div>
+														<div class="side_post_content">
+															<div class="side_post_title">Lo que el deporte puede enseñarte para emprender</div>
+															<small class="post_meta">MIRCASTWEEB<span>Enero 09</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Future Events Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="event_date d-flex flex-column align-items-center justify-content-center">
+															<div class="event_day">10</div>
+															<div class="event_month">enero</div>
+														</div>
+														<div class="side_post_content">
+															<div class="side_post_title">¿Qué pasara con Huawei en el 2020?</div>
+															<small class="post_meta">MIRCASTWEEB<span>Enero 10</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+											<!-- Future Events Post -->
+											<div class="side_post">
+												<a href="post.html">
+													<div class="d-flex flex-row align-items-xl-center align-items-start justify-content-start">
+														<div class="event_date d-flex flex-column align-items-center justify-content-center">
+															<div class="event_day">13</div>
+															<div class="event_month">enero</div>
+														</div>
+														<div class="side_post_content">
+															<div class="side_post_title">Crea una vida de la que no necesites vacaciones</div>
+															<small class="post_meta">MIRCASTWEEB<span>Enero 13</span></small>
+														</div>
+													</div>
+												</a>
+											</div>
+
+										</div>
+
+
+										</div>
+
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row row-lg-eq-height">
+				<div class="col-lg-9 order-lg-1 order-2">
+					<div class="footer_content">
+						<div class="footer_logo"><a href="#">MIRCASTBLOG</a></div>
+						<div class="footer_social">
+							<ul>
+								<li class="footer_social_facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li class="footer_social_twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+								<li class="footer_social_pinterest"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+								<li class="footer_social_vimeo"><a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+								<li class="footer_social_instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li class="footer_social_google"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+							</ul>
+						</div>
+						<div class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="../index.html" target="_blank">MircastWeb</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
+					</div>
+				</div>
+				<div class="col-lg-3 order-lg-2 order-1">
+					<div class="subscribe">
+						<div class="subscribe_background"></div>
+						<div class="subscribe_content">
+								<form action="https://mircastweb.us5.list-manage.com/subscribe/post?u=891a78e4966a6a57965d44630&amp;id=aad9a05c1a" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+							<div class="subscribe_title">Subscribe</div>
+							<form action="#">
+								<input type="email" class="sub_input" placeholder="Your Email" required="required">
+								<button class="sub_button">
+									<svg version="1.1" id="link_arrow_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										 width="19px" height="13px" viewBox="0 0 19 13" enable-background="new 0 0 19 13" xml:space="preserve">
+										<polygon fill="#FFFFFF" points="12.475,0 11.061,0 17.081,6.021 0,6.021 0,7.021 17.038,7.021 11.06,13 12.474,13 18.974,6.5 "/>
+									</svg>
+								</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="styles/bootstrap4/popper.js"></script>
+<script src="styles/bootstrap4/bootstrap.min.js"></script>
+<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+<script src="plugins/jquery.mb.YTPlayer-3.1.12/jquery.mb.YTPlayer.js"></script>
+<script src="plugins/easing/easing.js"></script>
+<script src="plugins/masonry/masonry.js"></script>
+<script src="plugins/masonry/images_loaded.js"></script>
+<script src="js/custom.js"></script>
+</body>
+</html>
